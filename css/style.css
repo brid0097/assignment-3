@@ -1,9 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
 header {
     background-color: #000;
     color: #fff;
 }
 
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .wrapper {
     max-width: 940px;
-    
+    margin: 0 auto;
+    align-items: center;
 }
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #fff;
+}
+
+nav a:link,
+nav a:visited {
+  color: #fff;
+}
+
+nav a:hover, 
+nav a:visited {
+    color: #fff;
+}
+
+#hero {
+    height: 600px;
+    background-image: url(/images/hands-typing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    max-width: 60%;
+    background-color: rgba(0, 0, 0, 50%);
+    color: #fff;
+    text-shadow: 0 2px 2px#000;
+    text-align: center;
+}
+
+#about-me .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#services .wrapper {
+    background-color: #fafafa;
+}
+
+
