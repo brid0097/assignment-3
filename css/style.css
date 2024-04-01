@@ -6,6 +6,7 @@ body {
     background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.4;
+    font-size: .75rem;
     margin: 0;
 }
 
@@ -16,6 +17,11 @@ img {
 header {
     background-color: #000;
     color: #fff;
+    padding: 1em;
+}
+
+header span {
+    font-size: 1rem;
 }
 
 header div {
@@ -37,7 +43,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 1em;
     color: #fff;
 }
 
@@ -67,6 +73,7 @@ h1 {
     max-width: 60%;
     background-color: rgba(0, 0, 0, 50%);
     color: #fff;
+    font-size: 2.5rem;
     text-shadow: 0 2px 2px#000;
     text-align: center;
 }
@@ -76,14 +83,20 @@ h1 {
     grid-template-columns: 2fr 1fr;
 }
 
+#about-me h2 {
+    font-size: 2rem;
+}
+
 #services {
     background-color: #fafafa;
-    padding: 2em 0;
+    padding: 3em 0;
 }
 
 #services h2 {
     max-width: 940px;
     text-align: center;
+    margin-top: 0;
+    font-size: 2rem;
 }
 
 .grid {
@@ -93,7 +106,7 @@ h1 {
 }
 
 .grid article {
-    padding: .8em;
+    padding: 1em;
     background-color: #fff;
 
     display: flex;
@@ -103,11 +116,12 @@ h1 {
 
 .grid article h3 {
     margin: 0;
+    font-size: 1.5rem;
 }
 
 .grid a:link,
 .grid a:visited {
-    padding: .8em 1em;
+    padding: 1em;
     background-color: #000;
     color: #fff;
     text-decoration: none;
@@ -123,13 +137,21 @@ h1 {
     color: #000;
 }
 
+#work {
+    padding: 3em 0;
+}
+
 #work h2 {
     max-width: 940px;
     text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
 }
 
 #work p {
-    max-width: 830px;
+    max-width: 940px;
+    text-align: center;
+    Padding: 0 12em;
 }
 
 .field {
@@ -162,4 +184,9 @@ h1 {
     grid-area: block5;
 }
 
-
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
