@@ -59,7 +59,7 @@ nav a:visited {
 
 #hero {
     height: 600px;
-    background-image: url(/images/hands-typing.jpg);
+    background-image: url(../images/hands-typing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
