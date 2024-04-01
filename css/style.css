@@ -76,8 +76,49 @@ h1 {
     grid-template-columns: 2fr 1fr;
 }
 
-#services .wrapper {
+#services {
     background-color: #fafafa;
+    padding: 2em 0;
 }
 
+#services h2 {
+    max-width: 940px;
+    text-align: center;
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.grid article {
+    padding: .8em;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.grid article h3 {
+    margin: 0;
+}
+
+.grid a:link,
+.grid a:visited {
+    padding: .8em 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+    
+    margin-top: auto;
+}
+
+.grid a:hover,
+.grid:focus {
+    background-color: #fff;
+    color: #000;
+}
