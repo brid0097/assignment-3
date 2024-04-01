@@ -122,3 +122,44 @@ h1 {
     background-color: #fff;
     color: #000;
 }
+
+#work h2 {
+    max-width: 940px;
+    text-align: center;
+}
+
+#work p {
+    max-width: 830px;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+    grid-template-areas:
+        "block1 block1 block1 block2 block2 block2"
+        "block1 block1 block1 block2 block2 block2"
+        "block1 block1 block1 block2 block2 block2"
+        "block3 block3 block4 block4 block5 block5"
+        "block3 block3 block4 block4 block5 block5"
+        "block3 block3 block4 block4 block5 block5"
+}
+
+.field .block:nth-child(1) {
+    grid-area: block1;
+}
+.field .block:nth-child(2) {
+    grid-area: block2;
+}
+.field .block:nth-child(3) {
+    grid-area: block3;
+}
+.field .block:nth-child(4) {
+    grid-area: block4;
+}
+.field .block:nth-child(5) {
+    grid-area: block5;
+}
+
+
