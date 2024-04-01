@@ -74,7 +74,7 @@ h1 {
     background-color: rgba(0, 0, 0, 50%);
     color: #fff;
     font-size: 2.5rem;
-    text-shadow: 0 2px 2px#000;
+    text-shadow: 0 2px 2px #000;
     text-align: center;
 }
 
@@ -157,15 +157,12 @@ h1 {
 .field {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
     grid-template-areas:
         "block1 block1 block1 block2 block2 block2"
-        "block1 block1 block1 block2 block2 block2"
-        "block1 block1 block1 block2 block2 block2"
         "block3 block3 block4 block4 block5 block5"
-        "block3 block3 block4 block4 block5 block5"
-        "block3 block3 block4 block4 block5 block5"
+    ;
 }
 
 .field .block:nth-child(1) {
